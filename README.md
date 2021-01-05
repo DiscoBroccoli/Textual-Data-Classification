@@ -39,9 +39,9 @@ is a single-lined text file containing a raw review. The preprocessing of the re
 lower-casing the raw text and removing break tags so that the texts can be tokenized to create the
 feature vectors.
 
-## Feature Selection
+# Feature Selection
 
-# Bag of Words & TF-IDF
+## Bag of Words & TF-IDF
 
 Because the algorithms cannot interpret text data directly, the Bag of Words technique was applied
 to extract features for use in the models. Each text document is represented by a fixed-length
@@ -51,7 +51,7 @@ features to describe each category. It measures the importance of each word to a
 to a collection of documents by comparing the word frequency in a document with the specificity
 of the term (i.e. inversely proportional to its frequency in all documents). 
 
-# Tokenization: Stop words, Lemmatization & N-Grams
+## Tokenization: Stop words, Lemmatization & N-Grams
 
 For the tokenization process, the features are cleaned ant then extracted from the input data set by removing
 the stop words, i.e. commonly used words in the English language. Examples of stop words include
