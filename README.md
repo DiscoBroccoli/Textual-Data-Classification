@@ -4,7 +4,7 @@ Experimenting various model performance on textual data classification with 20ne
 Completed for COMP 551 - Applied Machine Learning
 
 ## Accomplishments
-* Cleaning Data Set for NLP context training. Namely:
+* Cleaning Dataset for NLP context training. Namely:
   * Bag of Words & TF-IDF.
   * Stop words, Lemmatization & N-Grams
 - Hyperparameter tuning with gridsearch with 5-fold cross validation.
