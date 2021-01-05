@@ -1,7 +1,6 @@
 # Textual-Data-Classification
 Experimenting various model performance on textual data classification with 20newsgroups [Lang,1995] & IMDB movie review dataset [Maas et al., 2011]
 
-Completed for COMP 551 - Applied Machine Learning
 
 ## Accomplishments
 * Cleaning Dataset for NLP context training. Namely:
