@@ -73,6 +73,7 @@ elif bigram:
                                          ngram_range=(1, 2))
 else:
   vectorizer = TfidfVectorizer(strip_accents="unicode", lowercase=True, stop_words=['english'],
+                                         max_features=20000, max_df=0.25, token_pattern=r'(?u)\b[A-Za-z]\w+\b')
 ```
 
 Code is part of [IMDB.py](https://github.com/DiscoBroccoli/Textual-Data-Classification/blob/main/imdb.py) & [news_group.py](https://github.com/DiscoBroccoli/Textual-Data-Classification/blob/main/news_group.py).
