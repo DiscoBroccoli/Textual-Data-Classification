@@ -3,7 +3,7 @@ Experimenting various model performance on textual data classification with 20ne
 
 Completed for COMP551 - Applied Machine Learning
 
-More content at: jiebao.ca/projects/IMDB
+More content at: [jiebao.ca/projects/IMDB](http://jiebao.ca/projects/IMDB)
 ## Accomplishments
 * Cleaning Dataset for NLP context training. Namely:
   * Bag of Words & TF-IDF.
